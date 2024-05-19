@@ -1,0 +1,58 @@
+.login-background {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    135deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-family: "work sans";
+  height: 100vh;
+  .login-container {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    // border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .login-content {
+      padding: 10px;
+      .text-login {
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        padding-top: 10px;
+      }
+      .login-input {
+        margin: 7px 0px;
+        .custom-input-password{
+          position: relative;
+          i {
+            position: absolute;
+            right: 7px;
+            top: 10px;
+            cursor: pointer;
+          }
+        }
+      }
+      .btn-login {
+        width: 100%;
+        padding: 5px;
+        border: none;
+        background: linear-gradient(
+          135deg,
+          rgba(34, 193, 195, 1) 0%,
+          rgba(253, 187, 45, 1) 100%
+        );
+        font-size: 17px;
+        border-radius: 15px;
+        color: white;
+      }
+    }
+  }
+}
